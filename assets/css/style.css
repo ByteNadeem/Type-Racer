@@ -1,2 +1,10 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Nunito:wght@400;700&display=swap");
+
+body {
+    font-family: Nunito, sans-serif;
+}
+header {
+    background-color: #ff8400;
+    color: white;
+}
