@@ -4,6 +4,7 @@
 body {
     font-family: Nunito, sans-serif;
 }
+
 h1 {
     font-family: Alegreya, serif;
 }
@@ -20,10 +21,13 @@ header {
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
     margin: 5px;
 }
+
 .btn-outline-orange:hover {
     background-color: #ff8400;
     color: #fff;
 }
+
+
 /* results-area */
 
 #results-area {
@@ -35,4 +39,14 @@ header {
 #results-area p {
     font-size: 1.1rem;
     margin-bottom: 5px;
+}
+
+/* typing feedback */
+
+.correct {
+    color: blue;
+}
+
+.incorrect {
+    color: red;
 }
